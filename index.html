@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/b8e64b9b58.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Gabriel Jaramillo</title>
+</head>
+
+<body>
+  <button id="translate-btn" class="btn btn-primary">
+    <i class="fa-solid fa-language" data-hover-text="Traducir"></i>
+  </button>
+
+  <ul class="nav nav-tabs">
+    <li class="nav-item">
+      <a class="nav-link inicio active" aria-current="page" href="#" data-translate-key="Inicio">Inicio</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#habilidades" data-translate-key="Habilidades">Habilidades</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#proyectos" data-translate-key="Proyectos">Proyectos</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#Portafolio" data-translate-key="Portafolio">Portafolio</a>
+    </li>
+  </ul>
+
+  <div class="container mt-5">
+    <div class="text-center">
+      <div class="image-container">
+        <img src="img/yo.jpg" class="rounded-circle" alt="Imagen Circular">
+      </div>
+    </div>
+    <div class="hv">
+      <a href="https://drive.google.com/file/d/11sW2k1nD1o9gGtx-QFDO0qUfdC669s9X/view">
+        <h5 data-translate-key="Hoja de Vida">Hoja de Vida</h5>
+      </a>
+    </div>
+
+    <h1 class="typing" id="title-text" data-translate-key="Soy Gabriel Jaramillo">Soy Gabriel Jaramillo</h1>
+    <h2 class="typing" id="subtitle-text" data-translate-key="Estudiante y Programador en proceso">Estudiante y Programador en proceso</h2>
+  </div>
+
+  <div class="habilidades" id="habilidades">
+    <h1 data-translate-key="Habilidades">Habilidades</h1>
+    <a href="#proyectos" class="hab">
+      <h2 data-translate-key="Desarrollo Web">Desarrollo Web</h2>
+    </a>
+
+    <figure class="figure figura1">
+      <a href="index.html">
+        <img src="img/html-Photoroom.png" class="figure-img img-fluid rounded" alt="HTML">
+      </a>
+      <figcaption class="figure-caption" data-translate-key="HTML">HTML</figcaption>
+    </figure>
+    <figure class="figure figura2">
+      <a href="index.html">
+        <img src="img/css-Photoroom.png" class="figure-img img-fluid rounded" alt="CSS">
+      </a>
+      <figcaption class="figure-caption" data-translate-key="CSS">CSS</figcaption>
+    </figure>
+    <figure class="figure figura3">
+      <a href="index.html">
+        <img src="img/js-Photoroom.png" class="figure-img img-fluid rounded" alt="JavaScript">
+      </a>
+      <figcaption class="figure-caption" data-translate-key="JavaScript">JavaScript</figcaption>
+    </figure>
+
+    <h2 data-translate-key="Frameworks">Frameworks</h2>
+    <figure class="figure figura3">
+      <a href="index.html">
+        <img src="img/Laravel-Logo-Photoroom.png" class="figure-img img-fluid rounded" alt="Laravel">
+      </a>
+      <figcaption class="figure-caption" data-translate-key="Laravel">Laravel</figcaption>
+    </figure>
+
+    <h2 data-translate-key="Programación">Programación</h2>
+    <figure class="figure figura1">
+      <a href="index.html">
+        <img src="img/py.png" class="figure-img img-fluid rounded" alt="Python">
+      </a>
+      <figcaption class="figure-caption" data-translate-key="Python">Python</figcaption>
+    </figure>
+    <figure class="figure figura2">
+      <a href="index.html">
+        <img src="img/c-Photoroom (1).png" class="figure-img img-fluid rounded" alt="C#">
+      </a>
+      <figcaption class="figure-caption" data-translate-key="C#">C#</figcaption>
+    </figure>
+    <figure class="figure figura3">
+      <a href="index.html">
+        <img src="img/j-Photoroom.png" class="figure-img img-fluid rounded" alt="Java">
+      </a>
+      <figcaption class="figure-caption" data-translate-key="Java">Java</figcaption>
+    </figure>
+    <h2 data-translate-key="Análisis de datos">Análisis de datos</h2>
+    <figure class="figure figura4">
+      <a href="index.html">
+        <img src="img/powerbi.jpg" class="figure-img img-fluid rounded" alt="Power BI">
+      </a>
+      <figcaption class="figure-caption" data-translate-key="Power BI">Power BI</figcaption> 
+    </figure>
+    <figure class="figure figura5">
+      <a href="index.html">
+        <img src="img/orange-Photoroom.png" class="figure-img img-fluid rounded" alt="Orange">
+      </a>
+      <figcaption class="figure-caption" data-translate-key="Orange">Orange</figcaption>
+    </figure>
+  </div>
+
+  <div class="proyectos" id="proyectos">
+    <h1 data-translate-key="Proyectos">Proyectos</h1>
+    <div class="contenedorp">
+      <h2 data-translate-key="Cattor Restaurante">Cattor Restaurante</h2>
+      <div class="pri">
+        <img src="img/1.png" alt="Cattor Restaurante">
+        <h3 data-translate-key="Página informativa para una fundación que mediante su restaurante y sus fondos se encarga de brindar apoyo y buscar un hogar a las mascotas abandonadas">
+          Página informativa para una fundación que mediante su restaurante y sus fondos se encarga de brindar apoyo y
+          buscar un hogar a las mascotas abandonadas
+        </h3>
+      </div>
+    </div>
+  </div>
+
+  <div class="portafolio" id="Portafolio">
+    <a href="https://github.com/Gabriel14050/Portafolio">
+      <h1 data-translate-key="Portafolio">Portafolio</h1>
+    </a>
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <a href="https://github.com/Gabriel14050/Portafolio/tree/master/Login/Login">
+            <img src="img/iniciio.jpeg" class="d-block w-100" alt="...">
+          </a>
+          <div class="carousel-caption d-none d-md-block">
+            <h2 data-translate-key="Inicio de Sesión">Inicio de Sesión</h2>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <a href="https://1er-desarrollo-gabriel.netlify.app/">
+            <img src="img/p1.jpg" class="d-block w-100" alt="...">
+          </a>
+          <div class="carousel-caption d-none d-md-block">
+            <h2 style="color: black;" data-translate-key="Desarrollo Freelancer">Desarrollo Freelancer</h2>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <a href="https://fancy-fairy-1dcb6e.netlify.app/">
+            <img src="img/ia.jpg" class="d-block w-100" alt="...">
+          </a>
+          <div class="carousel-caption d-none d-md-block">
+            <h2 style="color: black;" data-translate-key="Regresión Lineal">Regresión Lineal</h2>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <div class="contacto" id="contacto">
+    <a class="fa-brands fa-whatsapp" href="https://wa.me/qr/FKMEE5PDZ73IA1"></a>
+    <a class="fa-brands fa-facebook" href="https://www.facebook.com/profile.php?id=100094243331091&mibextid=ZbWKwL"></a>
+    <a class="fa-brands fa-github" href="https://github.com/Gabriel14050"></a>
+  </div>
+
+  <footer data-translate-key="Desarrollado por: Gabriel Jaramillo">
+    Desarrollado por: Gabriel Jaramillo
+  </footer>
+
+  <script src="traductor.js"></script>
+  <script src="type.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
