@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   typeText("#title-text", "Soy Gabriel Jaramillo", 100);
-  typeText("#subtitle-text", "Estudiante y Programador en proceso", 100);
+  typeText("#subtitle-text", "TECNOLOGO SUPERIOR UNIVERSITARIO EN SISTEMAS Y GESTION DE DATOS", 100);
 });
 
 function typeText(selector, text, speed) {
