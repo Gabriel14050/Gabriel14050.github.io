@@ -10,7 +10,7 @@ const translations = {
     "Portafolio": "Portafolio",
     "Hoja de Vida": "Hoja de Vida",
     "Soy Gabriel Jaramillo": "Soy Gabriel Jaramillo",
-    "TECNOLOGO SUPERIOR UNIVERSITARIO EN SISTEMAS Y GESTION DE DATOS": "TECNOLOGO SUPERIOR UNIVERSITARIO EN SISTEMAS Y GESTION DE DATOS",
+    "TECNOLOGO SUPERIOR UNIVERSITARIO EN SISTEMAS Y GESTION DE DATA": "TECNOLOGO SUPERIOR UNIVERSITARIO EN SISTEMAS Y GESTION DE DATA",
     "Desarrollo Web": "Desarrollo Web",
     "HTML": "HTML",
     "CSS": "CSS",
